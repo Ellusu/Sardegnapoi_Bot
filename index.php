@@ -44,7 +44,7 @@ echo json_encode($parameters);
 function sendMessage($bidda, $chatID){
 	
 		
-	$benvenuto="Benvenuto su Sardegna e Archeologia, \ndigitando il nome di un comune o inviando la tua posizione visualizzerai l'elenco di tutti i luoghi di interesse di carattere storico o archeologico. \n \nIl bot è stato realizzato utilizzando gli Opendata messi a disposizione de Nurnet. \n \nRealizzato da Matteo Enna, \nRilasciato sotto licenza GPL3, potete trovare il progetto su GitHub: https://github.com/Ellusu/nuraghebot";
+	$benvenuto="Benvenuto su Punti di interesse in Sardegna, \ndigitando il nome di un comune o inviando la tua posizione visualizzerai l'elenco di tutti i luoghi di interesse. \n \nIl bot è stato realizzato utilizzando gli Opendata messi a disposizione da Sardegna Territorio. \n \nRealizzato da Matteo Enna, \nRilasciato sotto licenza GPL3, potete trovare il progetto su: http://matteoenna.it/punti-interesse-sardegna-bot-telegram";
 	$help ="Digita il nome del comune e invia il messaggio oppure invia la tua posizione. \n\nPer qualsiasi dubbio, informazione o chiarimento puoi scrivermi su telegram @matteoenna oppure mandarmi una mail: matteo.enna89@gmail.com";
 
 	if(strlen($bidda)<4 && !is_array($bidda)){
